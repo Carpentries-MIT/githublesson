@@ -3,7 +3,7 @@
 
 # # Version Control with Git and GitHub
 # 
-# This notebook is to keep the notes for introducing Git and GitHub during the Software Carpentry Workshop (SWC) @ MIT. The content of this introduction is based on the SWC lesson on "[Version Control with Git](http://swcarpentry.github.io/git-novice/)" but we are using the application GitHub Desktop instead of the Git Bash command line. 
+# This notebook is the lesson plan for introducing Git and GitHub during the Carpentries @ MIT workshop. The content of this introduction is based on the Software Carpentry lesson on "[Version Control with Git](http://swcarpentry.github.io/git-novice/)" but we are using the application GitHub Desktop instead of the Git Bash command line.
 
 # ## Automated Version Control
 
@@ -44,9 +44,9 @@
 # ## Setting Up Git and GitHub Desktop
 
 # ### Installing Git and GitHub Desktop
-# Make sure you followed the instructions on [our workshop page](https://carpentriesmit.github.io/2021-08-05-mit/) to:
+# Make sure you followed the instructions on [our workshop page](https://carpentriesmit.github.io/2022-08-02-mit-online/) to:
 # * Install Git
-# * Install GitHub Desktop ([GitHub Help page](https://help.github.com/en/desktop/getting-started-with-github-desktop/installing-github-desktop))
+# * Install GitHub Desktop ([GitHub Desktop Help page](https://help.github.com/en/desktop/getting-started-with-github-desktop/installing-github-desktop))
 # * Create an account on https://github.com 
 # * Share your GitHub account on our course Etherpad (in the participants name/contact list)
 
