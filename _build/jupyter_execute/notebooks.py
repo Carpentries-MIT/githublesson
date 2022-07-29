@@ -358,6 +358,7 @@
 # #### Create a branch
 # 
 # <!-- Instructor Note:  Ask each student to create a new branch named test-YourInitials and publish it to the collaborative repo. Show the branches as people push them to the collaborative repo. Ask Instructor 2 to create a branch with their initials too for demo of pull request between branches and creating conflict below. -->
+# Use the *Current Repository* tab on your GitHub Desktop to navigate to the repo you'd like to create a branch in. 
 # 
 # On the top of the GitHub Desktop, switch to the branch that you want to base the new branch on by clicking the Current Branch and choosing it from the list. For now, it would be just the Main branch. Then, click on New Branch. 
 # 
@@ -397,11 +398,11 @@
 # 
 # A *Pull request* can be initiated on the browser page of the Github repo.
 # 
-# On GitHub Desktop, click on Branch --> Create Pull Request will take you to a web browser page.  
+# On GitHub Desktop: click on Branch --> Create Pull Request will take you to a web browser page.  
 # 
 # ![CreatePullRequest_Desktop](./images/CreatePullRequest_Desktop.png) 
 # 
-# Or you can browse to Braches page by clicking on the number of Branches link on the top left of your GitHub.com repo page. For each *Active Branch*, you will see a *New Pull Request* button on the right side. 
+# On your Browser: you can browse to Braches page by clicking on the number of Branches link on the top left of your GitHub.com repo page. For each *Active Branch*, you will see a *New Pull Request* button on the right side. 
 # 
 # ![CreatePullRequest_Browser](./images/CreatePullRequest_Browser.png)
 # 
@@ -409,7 +410,7 @@
 # 
 # ![pullrequest](./images/PullRequest.png)
 # 
-# If there is no conflict between the two branches, the Merge can now be confirmed with a message to explain. All requests can be accessed from the Pull Requests tab. 
+# If there is no conflict between the two branches, they are ready to be Merged. All requests can be accessed from the Pull Requests tab. 
 # 
 # ![mergepull](./images/mergepull.png)
 # 
