@@ -256,7 +256,7 @@
 
 # On GitHub Desktop, you can use the *Publish repository* button to post your local repo to GitHub.com or GitHub Enterprise @ MIT, since we have configured our GitHub account into the GitHub Desktop. 
 # 
-# Note: When publishing to GitHub, you cannot keep a repo private with a free GitHub account. But you can do so if you are using your GitHub Enterprise @ MIT account. 
+# Note: When publishing to GitHub (either with a free account or an MIT Enterprise GitHub account), you can publish either a private or public repository. 
 # 
 # ![publishrepo](./images/publishrepo.png)
 # 
@@ -287,7 +287,7 @@
 # 
 # On your GitHub.com repo page in the browser, open the README.md file and use the pencil icon (**Edit this file**) tool to add the following sentence to the file. 
 # 
-# > I made this edit on the remote GitHub repo through web broswer. 
+# > I made this edit on the remote GitHub repo through web browser. 
 # 
 # Use the bottom box to Commit changes with the following message:
 # 
