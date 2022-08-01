@@ -76,10 +76,13 @@
 # # to nano
 # $ git config --global core.editor "nano -w"
 # 
-# # or to Atom if you have it installed
-# $ git config --global core.editor "atom --wait"
-# 
 # ```
+# 
+# <!-- or to Atom if you have it installed
+#  git config --global core.editor "atom --wait"
+# --> 
+# 
+# 
 # #### Check your settings and get help
 # ```
 # $ git config --list
@@ -382,6 +385,20 @@
 
 # 
 # ### Pull request to merge changes between branches
+# 
+# Under the branch you created, you can now make changes to the files or create new files without influence other branches. 
+# 
+# For example, with GitHub Desktop set to the branch you created, open **plans.txt** and add the following sentence to line 4. 
+# 
+# > Phoebe suspects Maine is full of bears. Bears can be scary.
+# 
+# commit the change to the branch of your local repo with the following message. 
+# 
+# > Summary: Update plans.txt
+# 
+# > Description: Added thoughts on bears.
+# 
+# Then, push the change to remote. 
 # 
 # Once you are ready with the changes made in one branch, you can send a *Pull request* to request merging them into another branch. A Collaborator can *Confirm Merging* in the target branch, that may or may not be created by them, unless the Owner has setup rules for the pull requests to be reviewed by specific members before merging. 
 # 
