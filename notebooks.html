@@ -820,11 +820,11 @@ title="Print to PDF"
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span># to nano
 $ git config --global core.editor &quot;nano -w&quot;
 
-# or to Atom if you have it installed
-$ git config --global core.editor &quot;atom --wait&quot;
-
 </pre></div>
 </div>
+<!-- or to Atom if you have it installed
+ git config --global core.editor "atom --wait"
+--> 
 </section>
 <section id="check-your-settings-and-get-help">
 <h4>Check your settings and get help<a class="headerlink" href="#check-your-settings-and-get-help" title="Permalink to this headline">#</a></h4>
@@ -1085,6 +1085,19 @@ water and food
 </section>
 <section id="pull-request-to-merge-changes-between-branches">
 <h3>Pull request to merge changes between branches<a class="headerlink" href="#pull-request-to-merge-changes-between-branches" title="Permalink to this headline">#</a></h3>
+<p>Under the branch you created, you can now make changes to the files or create new files without influence other branches.</p>
+<p>For example, with GitHub Desktop set to the branch you created, open <strong>plans.txt</strong> and add the following sentence to line 4.</p>
+<blockquote>
+<div><p>Phoebe suspects Maine is full of bears. Bears can be scary.</p>
+</div></blockquote>
+<p>commit the change to the branch of your local repo with the following message.</p>
+<blockquote>
+<div><p>Summary: Update plans.txt</p>
+</div></blockquote>
+<blockquote>
+<div><p>Description: Added thoughts on bears.</p>
+</div></blockquote>
+<p>Then, push the change to remote.</p>
 <p>Once you are ready with the changes made in one branch, you can send a <em>Pull request</em> to request merging them into another branch. A Collaborator can <em>Confirm Merging</em> in the target branch, that may or may not be created by them, unless the Owner has setup rules for the pull requests to be reviewed by specific members before merging.</p>
 <!-- Instructor Steps: (no switch of screenshare. Only Instructor 1 shares screen.) 
 1. Instructor 2 add a file members.txt on the test-Instuctor2Initials branch and push to the repo with a committ note of "only added for test-Instructor2Initials". 
