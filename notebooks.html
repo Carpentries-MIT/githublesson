@@ -334,6 +334,11 @@ title="Print to PDF"
      Version control with word processors
     </a>
    </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#version-control-treating-changes-seaprately-from-a-document">
+     Version control treating changes seaprately from a document
+    </a>
+   </li>
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
@@ -549,6 +554,11 @@ title="Print to PDF"
      Version control with word processors
     </a>
    </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#version-control-treating-changes-seaprately-from-a-document">
+     Version control treating changes seaprately from a document
+    </a>
+   </li>
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
@@ -757,21 +767,29 @@ title="Print to PDF"
 </section>
 <section id="version-control-with-word-processors">
 <h3>Version control with word processors<a class="headerlink" href="#version-control-with-word-processors" title="Permalink to this headline">#</a></h3>
+<p>Version control systems start with a base version of the document and then record changes you make each step of the way. You can think of it as a recording of your progress: you can rewind to start at the base document and play back each change you made, eventually arriving at your more recent version.</p>
 <p>E.g. Microsoft Word - track changes &amp; Office365/WordOnline; GoogleDoc / Version history, LibreOffice / Recording and Displaying Changes</p>
 <ul class="simple">
 <li><p>Record progress that can be rewound to start
 <img alt="Record Changes" src="http://swcarpentry.github.io/git-novice/fig/play-changes.svg" /></p></li>
+</ul>
+</section>
+<section id="version-control-treating-changes-seaprately-from-a-document">
+<h3>Version control treating changes seaprately from a document<a class="headerlink" href="#version-control-treating-changes-seaprately-from-a-document" title="Permalink to this headline">#</a></h3>
+<p>Once you think of changes as separate from the document itself, you can then think about “playing back” different sets of changes on the base document, ultimately resulting in different versions of that document. For example, two users can make independent sets of changes on the same document.</p>
+<ul class="simple">
 <li><p>Two users can make independent sets of changes in the same document
 <img alt="Resulting two sets" src="http://swcarpentry.github.io/git-novice/fig/versions.svg" /></p></li>
-<li><p>Owner can incoporate multiple users’ changes to the same base document
+<li><p>Owner can incoporate multiple users’ changes to the same base document if there is no conflict.
 <img alt="Merge changes" src="http://swcarpentry.github.io/git-novice/fig/merge.svg" /></p></li>
 </ul>
+<p>A version control system is a tool that keeps track of these changes for us, effectively creating different versions of our files. It allows us to decide which changes will be made to the next version (each record of these changes is called a <em>commit</em>), and keeps useful metadata about them. The complete history of commits for a particular project and their metadata make up a <em>repository</em>. Repositories can be kept in sync across different computers, facilitating collaboration among different people.</p>
 </section>
 </section>
 <section id="git-github-github-desktop-and-github-enterprise-mit">
 <h2>Git, GitHub, GitHub Desktop, and GitHub Enterprise &#64; MIT<a class="headerlink" href="#git-github-github-desktop-and-github-enterprise-mit" title="Permalink to this headline">#</a></h2>
 <ul class="simple">
-<li><p><strong>Git</strong> - The open source version control tool on your local computer</p></li>
+<li><p><strong>Git</strong> - The open source version control tool on your local computer - the core to keep the record of all changes.</p></li>
 <li><p><strong>GitHub</strong> - A cloud server hosting Git repositories; can be connected to your local Git repos; Currently owned by Microsoft. <a class="reference external" href="https://github.com">https://github.com</a></p></li>
 <li><p><strong>GitHub Desktop</strong> -  A desktop application that can simplify your workflow connecting your local repos to GitHub cloud.</p></li>
 <li><p><strong>GitHub Enterprise &#64; MIT</strong> - An instance of GitHub hosted by MIT for MIT students, faculty and staff use.
