@@ -17,19 +17,27 @@
 # ![Naming Convention Saga with "Final"](http://swcarpentry.github.io/git-novice/fig/phd101212s.png)
 
 # ### Version control with word processors 
+# Version control systems start with a base version of the document and then record changes you make each step of the way. You can think of it as a recording of your progress: you can rewind to start at the base document and play back each change you made, eventually arriving at your more recent version.
+# 
 # E.g. Microsoft Word - track changes & Office365/WordOnline; GoogleDoc / Version history, LibreOffice / Recording and Displaying Changes
 # 
 # * Record progress that can be rewound to start
 # ![Record Changes](http://swcarpentry.github.io/git-novice/fig/play-changes.svg)
 # 
+# ### Version control treating changes seaprately from a document
+# 
+# Once you think of changes as separate from the document itself, you can then think about “playing back” different sets of changes on the base document, ultimately resulting in different versions of that document. For example, two users can make independent sets of changes on the same document.
+# 
 # * Two users can make independent sets of changes in the same document
 # ![Resulting two sets](http://swcarpentry.github.io/git-novice/fig/versions.svg)
 # 
-# * Owner can incoporate multiple users' changes to the same base document
+# * Owner can incoporate multiple users' changes to the same base document if there is no conflict.
 # ![Merge changes](http://swcarpentry.github.io/git-novice/fig/merge.svg)
+# 
+# A version control system is a tool that keeps track of these changes for us, effectively creating different versions of our files. It allows us to decide which changes will be made to the next version (each record of these changes is called a *commit*), and keeps useful metadata about them. The complete history of commits for a particular project and their metadata make up a *repository*. Repositories can be kept in sync across different computers, facilitating collaboration among different people.
 
 # ## Git, GitHub, GitHub Desktop, and GitHub Enterprise @ MIT
-# * **Git** - The open source version control tool on your local computer 
+# * **Git** - The open source version control tool on your local computer - the core to keep the record of all changes. 
 # 
 # * **GitHub** - A cloud server hosting Git repositories; can be connected to your local Git repos; Currently owned by Microsoft. https://github.com
 # 
