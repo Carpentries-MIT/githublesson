@@ -37,11 +37,11 @@
 # A version control system is a tool that keeps track of these changes for us, effectively creating different versions of our files. It allows us to decide which changes will be made to the next version (each record of these changes is called a *commit*), and keeps useful metadata about them. The complete history of commits for a particular project and their metadata make up a *repository*. Repositories can be kept in sync across different computers, facilitating collaboration among different people.
 
 # ## Git, GitHub, GitHub Desktop, and GitHub Enterprise @ MIT
-# * **Git** - The open source version control tool on your local computer - the core to keep the record of all changes. 
+# * **Git** - The open source version control tool on your local computer - the *core* to keep the record of all changes. 
 # 
-# * **GitHub** - A cloud server hosting Git repositories; can be connected to your local Git repos; Currently owned by Microsoft. https://github.com
+# * **GitHub.com** - A *cloud server* hosting Git repositories; can be connected to your local Git repos; Currently owned by Microsoft. https://github.com
 # 
-# * **GitHub Desktop** -  A desktop application that can simplify your workflow connecting your local repos to GitHub cloud. 
+# * **GitHub Desktop** -  A *desktop application (or a Graphical User Interface, GUI)* that can simplify your workflow connecting your local repos to GitHub cloud. 
 # 
 # * **GitHub Enterprise @ MIT** - An instance of GitHub hosted by MIT for MIT students, faculty and staff use. 
 # https://github.mit.edu/
