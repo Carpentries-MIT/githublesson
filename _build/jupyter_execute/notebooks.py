@@ -120,6 +120,12 @@
 # * on Windows, File --> Options --> Git --> add your name and email
 # 
 # If you have signed in with your Github.com account when you first open your GitHub Desktop, your Git would have been configured with information from your Github.com account. 
+# 
+# You may also configure the detault editor for your code on GitHub Desktop.
+# * on Mac, Preference --> Integrations --> Applications --> External editor --> choose one available
+# * on Windows, File --> Options --> Integrations --> Applications --> External editor --> choose one available
+# 
+# For example, if you've installed Visual Studio Code (https://code.visualstudio.com/), it would show up as an option. 
 
 # ## Creating a local repository
 # Use **GitHub Desktop**
@@ -146,7 +152,7 @@
 # ## Tracking Changes using GitHub Desktop
 # 
 # ### Add a text file
-# Create a **plans.txt** file using a plain text editor (e.g. Nano, Notepad++, Atom, Sublime Text etc.. )
+# Create a **plans.txt** file using a plain text editor (e.g. Nano, Visual Studio Code, Notepad++, Sublime Text etc.. )
 # 
 # Example: using Bash and Nano to do so. Make sure that you are under the directory **hiking**. 
 # 
@@ -154,6 +160,9 @@
 # $nano plans.txt
 # 
 # ```
+# 
+# For Mac users, if you use TextEdit, check *Format > Make Plain Text* so that you can save the file as simple text files in .txt instead of rich text files. 
+# 
 
 # Type the text below into the **plans.txt** file and save the file
 # > This is our summer hiking plan.
@@ -512,8 +521,11 @@
 # 
 # Remember to delete all the added symbols and separators. 
 # 
-# If you are using a visual editor, you may see the highlight of Conflicts as in the screenshot below from Atom. 
-# ![ConflictVisual](./images/ConflictVisualAtom.png) 
+# If you are using a visual editor, you may see the highlight of Conflicts as in the screenshot below from Visual Studio Code. And they often present a clickable option to accept one or another. 
+# 
+# ![ConflictVisual](./images/ConflictVisualVSCode.png) 
+# 
+# If you are using a simple text editor, just delete the lines you do not need along with all the symbols and tracking numbers. 
 # 
 # Once the changes are merged and saved, you can push the new commit to the remote repo. 
 # 

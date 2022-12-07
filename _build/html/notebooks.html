@@ -878,6 +878,12 @@ $ git config --help
 <li><p>on Windows, File –&gt; Options –&gt; Git –&gt; add your name and email</p></li>
 </ul>
 <p>If you have signed in with your <a class="reference external" href="http://Github.com">Github.com</a> account when you first open your GitHub Desktop, your Git would have been configured with information from your <a class="reference external" href="http://Github.com">Github.com</a> account.</p>
+<p>You may also configure the detault editor for your code on GitHub Desktop.</p>
+<ul class="simple">
+<li><p>on Mac, Preference –&gt; Integrations –&gt; Applications –&gt; External editor –&gt; choose one available</p></li>
+<li><p>on Windows, File –&gt; Options –&gt; Integrations –&gt; Applications –&gt; External editor –&gt; choose one available</p></li>
+</ul>
+<p>For example, if you’ve installed Visual Studio Code (<a class="reference external" href="https://code.visualstudio.com/">https://code.visualstudio.com/</a>), it would show up as an option.</p>
 </section>
 </section>
 <section id="creating-a-local-repository">
@@ -905,12 +911,13 @@ Or <em>File –&gt; New Repository…</em></p></li>
 <h2>Tracking Changes using GitHub Desktop<a class="headerlink" href="#tracking-changes-using-github-desktop" title="Permalink to this headline">#</a></h2>
 <section id="add-a-text-file">
 <h3>Add a text file<a class="headerlink" href="#add-a-text-file" title="Permalink to this headline">#</a></h3>
-<p>Create a <strong>plans.txt</strong> file using a plain text editor (e.g. Nano, Notepad++, Atom, Sublime Text etc.. )</p>
+<p>Create a <strong>plans.txt</strong> file using a plain text editor (e.g. Nano, Visual Studio Code, Notepad++, Sublime Text etc.. )</p>
 <p>Example: using Bash and Nano to do so. Make sure that you are under the directory <strong>hiking</strong>.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$nano plans.txt
 
 </pre></div>
 </div>
+<p>For Mac users, if you use TextEdit, check <em>Format &gt; Make Plain Text</em> so that you can save the file as simple text files in .txt instead of rich text files.</p>
 <p>Type the text below into the <strong>plans.txt</strong> file and save the file</p>
 <blockquote>
 <div><p>This is our summer hiking plan.</p>
@@ -1183,8 +1190,9 @@ Phoebe suspects Maine is full of bears. But we should be fine if we are careful.
 <p>Our change is preceded by &lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD. Git has then inserted ======= as a separator between the conflicting changes and marked the end of the content downloaded from GitHub with &gt;&gt;&gt;&gt;&gt;&gt;&gt;. (The string of letters and digits after that marker identifies the commit we’ve just downloaded.)</p>
 <p>It is now up to us to edit this file to remove these markers and reconcile the changes. We can do anything we want: keep the change made in the local repository, keep the change made in the remote repository, write something new to replace both, or get rid of the change entirely.</p>
 <p>Remember to delete all the added symbols and separators.</p>
-<p>If you are using a visual editor, you may see the highlight of Conflicts as in the screenshot below from Atom.
-<img alt="ConflictVisual" src="_images/ConflictVisualAtom.png" /></p>
+<p>If you are using a visual editor, you may see the highlight of Conflicts as in the screenshot below from Visual Studio Code. And they often present a clickable option to accept one or another.</p>
+<p><img alt="ConflictVisual" src="_images/ConflictVisualVSCode.png" /></p>
+<p>If you are using a simple text editor, just delete the lines you do not need along with all the symbols and tracking numbers.</p>
 <p>Once the changes are merged and saved, you can push the new commit to the remote repo.</p>
 <p><img alt="ConflictResolve" src="_images/ConflictResolve.png" /></p>
 <!-- Instructor note: You can decide to use either the Instructor 1's edit or Instructor 2's edit. -->
