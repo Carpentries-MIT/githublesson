@@ -48,6 +48,8 @@
 # 
 # [Read more on GitHub Enterprise @ MIT](https://ist.mit.edu/github-enterprise) 
 # 
+# ![How Git, GitHub.com and GitHub Desktop connect](images/GitGitHub_GitHubDesktop.png)
+# 
 
 # ## Setting Up Git and GitHub Desktop
 
