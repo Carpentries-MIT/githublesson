@@ -1,10 +1,10 @@
 
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
 
     <title>Version Control with Git and GitHub &#8212; Version Control with Git and GitHub</title>
     
@@ -34,6 +34,7 @@
     <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="_static/doctools.js"></script>
     <script src="_static/clipboard.min.js"></script>
     <script src="_static/copybutton.js"></script>
@@ -54,7 +55,7 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="search" title="Search" href="search.html" />
     <link rel="prev" title="Welcome to Version Control with Git and GitHub" href="intro.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="docsearch:language" content="None">
+    <meta name="docsearch:language" content="en">
     
 
     <!-- Google Analytics -->
@@ -751,12 +752,12 @@ title="Print to PDF"
               <div>
                 
   <section class="tex2jax_ignore mathjax_ignore" id="version-control-with-git-and-github">
-<h1>Version Control with Git and GitHub<a class="headerlink" href="#version-control-with-git-and-github" title="Permalink to this headline">#</a></h1>
+<h1>Version Control with Git and GitHub<a class="headerlink" href="#version-control-with-git-and-github" title="Permalink to this heading">#</a></h1>
 <p>This notebook is the lesson plan for introducing Git and GitHub during the Carpentries &#64; MIT workshop. The content of this introduction is based on the Software Carpentry lesson on “<a class="reference external" href="http://swcarpentry.github.io/git-novice/">Version Control with Git</a>” but we are using the application GitHub Desktop instead of the Git Bash command line.</p>
 <section id="automated-version-control">
-<h2>Automated Version Control<a class="headerlink" href="#automated-version-control" title="Permalink to this headline">#</a></h2>
+<h2>Automated Version Control<a class="headerlink" href="#automated-version-control" title="Permalink to this heading">#</a></h2>
 <section id="purpose">
-<h3>Purpose<a class="headerlink" href="#purpose" title="Permalink to this headline">#</a></h3>
+<h3>Purpose<a class="headerlink" href="#purpose" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p>Keep track of <strong>what each person did and when</strong> in a project.</p></li>
 <li><p>Go back to and question specific changes as well as “undo” when needed</p></li>
@@ -766,7 +767,7 @@ title="Print to PDF"
 <p><img alt="Naming Convention Saga with &quot;Final&quot;" src="http://swcarpentry.github.io/git-novice/fig/phd101212s.png" /></p>
 </section>
 <section id="version-control-with-word-processors">
-<h3>Version control with word processors<a class="headerlink" href="#version-control-with-word-processors" title="Permalink to this headline">#</a></h3>
+<h3>Version control with word processors<a class="headerlink" href="#version-control-with-word-processors" title="Permalink to this heading">#</a></h3>
 <p>Version control systems start with a base version of the document and then record changes you make each step of the way. You can think of it as a recording of your progress: you can rewind to start at the base document and play back each change you made, eventually arriving at your more recent version.</p>
 <p>E.g. Microsoft Word - track changes &amp; Office365/WordOnline; GoogleDoc / Version history, LibreOffice / Recording and Displaying Changes</p>
 <ul class="simple">
@@ -775,7 +776,7 @@ title="Print to PDF"
 </ul>
 </section>
 <section id="version-control-treating-changes-seaprately-from-a-document">
-<h3>Version control treating changes seaprately from a document<a class="headerlink" href="#version-control-treating-changes-seaprately-from-a-document" title="Permalink to this headline">#</a></h3>
+<h3>Version control treating changes seaprately from a document<a class="headerlink" href="#version-control-treating-changes-seaprately-from-a-document" title="Permalink to this heading">#</a></h3>
 <p>Once you think of changes as separate from the document itself, you can then think about “playing back” different sets of changes on the base document, ultimately resulting in different versions of that document. For example, two users can make independent sets of changes on the same document.</p>
 <ul class="simple">
 <li><p>Two users can make independent sets of changes in the same document
@@ -787,7 +788,7 @@ title="Print to PDF"
 </section>
 </section>
 <section id="git-github-github-desktop-and-github-enterprise-mit">
-<h2>Git, GitHub, GitHub Desktop, and GitHub Enterprise &#64; MIT<a class="headerlink" href="#git-github-github-desktop-and-github-enterprise-mit" title="Permalink to this headline">#</a></h2>
+<h2>Git, GitHub, GitHub Desktop, and GitHub Enterprise &#64; MIT<a class="headerlink" href="#git-github-github-desktop-and-github-enterprise-mit" title="Permalink to this heading">#</a></h2>
 <ul class="simple">
 <li><p><strong>Git</strong> - The open source version control tool on your local computer - the <em>core</em> to keep the record of all changes.</p></li>
 <li><p><strong><a class="reference external" href="http://GitHub.com">GitHub.com</a></strong> - A <em>cloud server</em> hosting Git repositories; can be connected to your local Git repos; Currently owned by Microsoft. <a class="reference external" href="https://github.com">https://github.com</a></p></li>
@@ -799,9 +800,9 @@ title="Print to PDF"
 <p><img alt="How Git, GitHub.com and GitHub Desktop connect" src="_images/GitGitHub_GitHubDesktop.png" /></p>
 </section>
 <section id="setting-up-git-and-github-desktop">
-<h2>Setting Up Git and GitHub Desktop<a class="headerlink" href="#setting-up-git-and-github-desktop" title="Permalink to this headline">#</a></h2>
+<h2>Setting Up Git and GitHub Desktop<a class="headerlink" href="#setting-up-git-and-github-desktop" title="Permalink to this heading">#</a></h2>
 <section id="installing-git-and-github-desktop">
-<h3>Installing Git and GitHub Desktop<a class="headerlink" href="#installing-git-and-github-desktop" title="Permalink to this headline">#</a></h3>
+<h3>Installing Git and GitHub Desktop<a class="headerlink" href="#installing-git-and-github-desktop" title="Permalink to this heading">#</a></h3>
 <p>Make sure you followed the instructions on <a class="reference external" href="https://carpentriesmit.github.io/2022-08-02-mit-online/">our workshop page</a> to:</p>
 <ul class="simple">
 <li><p>Install Git</p></li>
@@ -811,7 +812,7 @@ title="Print to PDF"
 </ul>
 </section>
 <section id="configuring-git">
-<h3>Configuring Git<a class="headerlink" href="#configuring-git" title="Permalink to this headline">#</a></h3>
+<h3>Configuring Git<a class="headerlink" href="#configuring-git" title="Permalink to this heading">#</a></h3>
 <p>Configure Git with:</p>
 <ul class="simple">
 <li><p>your name and email address</p></li>
@@ -819,14 +820,14 @@ title="Print to PDF"
 <li><p>the preference to use these settings globally (i.e for every project)</p></li>
 </ul>
 <section id="checking-git-version">
-<h4>Checking Git version<a class="headerlink" href="#checking-git-version" title="Permalink to this headline">#</a></h4>
+<h4>Checking Git version<a class="headerlink" href="#checking-git-version" title="Permalink to this heading">#</a></h4>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ git --version
 
 </pre></div>
 </div>
 </section>
 <section id="configuring-your-identity">
-<h4>Configuring your identity<a class="headerlink" href="#configuring-your-identity" title="Permalink to this headline">#</a></h4>
+<h4>Configuring your identity<a class="headerlink" href="#configuring-your-identity" title="Permalink to this heading">#</a></h4>
 <p>In Git Bash (Windows) or Terminal (Mac), run the following using your own name and email address. These will be associated with any changes you push to GitHub later.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span> $ git config --global user.name &quot;Happy Hiker&quot;
 
@@ -835,7 +836,7 @@ title="Print to PDF"
 </div>
 </section>
 <section id="configuring-your-default-text-editor">
-<h4>Configuring your default text editor<a class="headerlink" href="#configuring-your-default-text-editor" title="Permalink to this headline">#</a></h4>
+<h4>Configuring your default text editor<a class="headerlink" href="#configuring-your-default-text-editor" title="Permalink to this heading">#</a></h4>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span># to nano
 $ git config --global core.editor &quot;nano -w&quot;
 
@@ -846,7 +847,7 @@ $ git config --global core.editor &quot;nano -w&quot;
 --> 
 </section>
 <section id="check-your-settings-and-get-help">
-<h4>Check your settings and get help<a class="headerlink" href="#check-your-settings-and-get-help" title="Permalink to this headline">#</a></h4>
+<h4>Check your settings and get help<a class="headerlink" href="#check-your-settings-and-get-help" title="Permalink to this heading">#</a></h4>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ git config --list
 
 $ git config -h
@@ -859,11 +860,11 @@ $ git config --help
 </section>
 </section>
 <section id="setting-up-github-desktop">
-<h3>Setting up GitHub Desktop<a class="headerlink" href="#setting-up-github-desktop" title="Permalink to this headline">#</a></h3>
+<h3>Setting up GitHub Desktop<a class="headerlink" href="#setting-up-github-desktop" title="Permalink to this heading">#</a></h3>
 <p>Read more on <a class="reference external" href="https://help.github.com/en/desktop/getting-started-with-github-desktop/setting-up-github-desktop">GitHub Desktop Help</a></p>
 </section>
 <section id="authenticating-to-github-in-github-desktop">
-<h3>Authenticating to GitHub in GitHub Desktop<a class="headerlink" href="#authenticating-to-github-in-github-desktop" title="Permalink to this headline">#</a></h3>
+<h3>Authenticating to GitHub in GitHub Desktop<a class="headerlink" href="#authenticating-to-github-in-github-desktop" title="Permalink to this heading">#</a></h3>
 <p>Use <strong>GitHub Desktop</strong> menu</p>
 <ul class="simple">
 <li><p>on Mac, Preference –&gt; Accounts –&gt; Sign in <a class="reference external" href="http://GitHub.com">GitHub.com</a> with your account</p></li>
@@ -872,7 +873,7 @@ $ git config --help
 <p>See <a class="reference external" href="https://help.github.com/en/desktop/getting-started-with-github-desktop/authenticating-to-github-using-the-browser">here</a> for more help if you have configured two-factor authentication for GitHub.</p>
 </section>
 <section id="configuring-git-for-github-desktop">
-<h3>Configuring Git for GitHub Desktop<a class="headerlink" href="#configuring-git-for-github-desktop" title="Permalink to this headline">#</a></h3>
+<h3>Configuring Git for GitHub Desktop<a class="headerlink" href="#configuring-git-for-github-desktop" title="Permalink to this heading">#</a></h3>
 <p>Use <strong>GitHub Desktop</strong> menu</p>
 <ul class="simple">
 <li><p>on Mac, Preference –&gt; Git –&gt; add your name and email</p></li>
@@ -888,7 +889,7 @@ $ git config --help
 </section>
 </section>
 <section id="creating-a-local-repository">
-<h2>Creating a local repository<a class="headerlink" href="#creating-a-local-repository" title="Permalink to this headline">#</a></h2>
+<h2>Creating a local repository<a class="headerlink" href="#creating-a-local-repository" title="Permalink to this heading">#</a></h2>
 <p>Use <strong>GitHub Desktop</strong></p>
 <ul class="simple">
 <li><p><em>Create a New Repository on your Hard Drive…</em>
@@ -906,12 +907,13 @@ Or <em>File –&gt; New Repository…</em></p></li>
 <ul class="simple">
 <li><p>On Mac, Command + Shift + Dot</p></li>
 <li><p>On Windows 10 / 8, from the File Explorer window (shortcut: windows key + E)  choose –&gt; View –&gt; Show/hide –&gt; check Hidden Items.</p></li>
+<li><p>Unix Shell command for listing names of files and subfolders with hidden files/folders displayed: ls -a</p></li>
 </ul>
 </section>
 <section id="tracking-changes-using-github-desktop">
-<h2>Tracking Changes using GitHub Desktop<a class="headerlink" href="#tracking-changes-using-github-desktop" title="Permalink to this headline">#</a></h2>
+<h2>Tracking Changes using GitHub Desktop<a class="headerlink" href="#tracking-changes-using-github-desktop" title="Permalink to this heading">#</a></h2>
 <section id="add-a-text-file">
-<h3>Add a text file<a class="headerlink" href="#add-a-text-file" title="Permalink to this headline">#</a></h3>
+<h3>Add a text file<a class="headerlink" href="#add-a-text-file" title="Permalink to this heading">#</a></h3>
 <p>Create a <strong>plans.txt</strong> file using a plain text editor (e.g. Nano, Visual Studio Code, Notepad++, Sublime Text etc.. )</p>
 <p>Example: using Bash and Nano to do so. Make sure that you are under the directory <strong>hiking</strong>.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$nano plans.txt
@@ -939,7 +941,7 @@ To do so, type in the following message to the Note and Description areas on the
 <p><img alt="aftercommit" src="_images/AfterCommit.png" /></p>
 </section>
 <section id="tracking-edits">
-<h3>Tracking edits<a class="headerlink" href="#tracking-edits" title="Permalink to this headline">#</a></h3>
+<h3>Tracking edits<a class="headerlink" href="#tracking-edits" title="Permalink to this heading">#</a></h3>
 <p>Add more information to <strong>plans.txt</strong></p>
 <blockquote>
 <div><p>Vermont is nice this time of year.</p>
@@ -986,7 +988,7 @@ $ cat plans.txt
 <img alt="addmultiple" src="https://swcarpentry.github.io/git-novice/fig/git-committing.svg" /></p>
 </section>
 <section id="tips">
-<h3>Tips:<a class="headerlink" href="#tips" title="Permalink to this headline">#</a></h3>
+<h3>Tips:<a class="headerlink" href="#tips" title="Permalink to this heading">#</a></h3>
 <ol class="simple">
 <li><p>The <strong>History</strong> tab will show you details of all the commits. You may choose to revert a specific commit with the tool too. But be careful to not create any conflicts.</p></li>
 </ol>
@@ -996,7 +998,7 @@ $ cat plans.txt
 </ol>
 </section>
 <section id="practice">
-<h3>Practice<a class="headerlink" href="#practice" title="Permalink to this headline">#</a></h3>
+<h3>Practice<a class="headerlink" href="#practice" title="Permalink to this heading">#</a></h3>
 <ol class="simple">
 <li><p>Under the <strong>packing</strong> folder, create a new file <strong>supplies.txt</strong> and add your iniital thoughts about what we should bring on a hiking trip</p></li>
 </ol>
@@ -1011,7 +1013,7 @@ water and food
 <!-- Instructor Notes: You should only see a commit for the file not the folder --> </section>
 </section>
 <section id="ignoring-things">
-<h2>Ignoring Things<a class="headerlink" href="#ignoring-things" title="Permalink to this headline">#</a></h2>
+<h2>Ignoring Things<a class="headerlink" href="#ignoring-things" title="Permalink to this heading">#</a></h2>
 <p>What if we have files that we do not want Git to track for us, like backup files created by our editor or intermediate files created during data analysis?</p>
 <p>You can add those file paths and names to the hidden .gitignore file.</p>
 <p>Open the current .gitignore file under your <strong>hiking</strong> repo to examine it. Because we chose the <strong>Git Ignore</strong> for python when we initialized the repo in GitHub Desktop, the list of file names here are those system files that a Python project often has that you don’t need to track. This file tells Git to ignore changes happening to those files.</p>
@@ -1019,7 +1021,7 @@ water and food
 <p>Different types of programming may have different system files to ignore. Using the tool in GitHub to initialize repos helps to create the default for each type of programming. But please check the file to make sure that the files you do want to keep track of are not accidently listed here, especially when you observe anything strange.</p>
 </section>
 <section id="remote-into-github">
-<h2>Remote into GitHub<a class="headerlink" href="#remote-into-github" title="Permalink to this headline">#</a></h2>
+<h2>Remote into GitHub<a class="headerlink" href="#remote-into-github" title="Permalink to this heading">#</a></h2>
 <p>So far, we are doing Version Control on our local computer. In order to collaborate with others and take full advantage of the sophisticated version control features, we need to use hosting services like GitHub, Bitbucket or GitLab to hold the master copies where collaborators could share changes with each other.</p>
 <p>The relationship between the local Git repo and the remote one can be illustrated as below.
 <img alt="githubremote" src="https://swcarpentry.github.io/git-novice/fig/github-repo-after-first-push.svg" /></p>
@@ -1029,7 +1031,7 @@ water and food
 <p>Once you successfully published your repo, go to a browser and log onto your account on <a class="reference external" href="http://GitHub.com">GitHub.com</a> and take a look at the repository added there. All the files and commit history are synchronized to the remote GitHub repo.</p>
 <p><img alt="repogithub" src="_images/RepoOnGitHub.png" /></p>
 <section id="push-changes-from-local-repo-to-remote-repo">
-<h3>Push changes from local repo to remote repo<a class="headerlink" href="#push-changes-from-local-repo-to-remote-repo" title="Permalink to this headline">#</a></h3>
+<h3>Push changes from local repo to remote repo<a class="headerlink" href="#push-changes-from-local-repo-to-remote-repo" title="Permalink to this heading">#</a></h3>
 <p>Still use Bash and Nano to add one more line below to <strong>plans.txt</strong></p>
 <blockquote>
 <div><p>Phoebe suspects Maine is full of bears.</p>
@@ -1045,7 +1047,7 @@ water and food
 <p><img alt="pushchanges" src="_images/PushChanges.png" /></p>
 </section>
 <section id="fetch-and-pull-changes-from-remote-repo-to-local-repo">
-<h3>Fetch and pull changes from remote repo to local repo<a class="headerlink" href="#fetch-and-pull-changes-from-remote-repo-to-local-repo" title="Permalink to this headline">#</a></h3>
+<h3>Fetch and pull changes from remote repo to local repo<a class="headerlink" href="#fetch-and-pull-changes-from-remote-repo-to-local-repo" title="Permalink to this heading">#</a></h3>
 <p>On your <a class="reference external" href="http://GitHub.com">GitHub.com</a> repo page in the browser, open the <a class="reference external" href="http://README.md">README.md</a> file and use the pencil icon (<strong>Edit this file</strong>) tool to add the following sentence to the file.</p>
 <blockquote>
 <div><p>I made this edit on the remote GitHub repo through web browser.</p>
@@ -1066,11 +1068,11 @@ water and food
 </section>
 </section>
 <section id="collaborating">
-<h2>Collaborating<a class="headerlink" href="#collaborating" title="Permalink to this headline">#</a></h2>
+<h2>Collaborating<a class="headerlink" href="#collaborating" title="Permalink to this heading">#</a></h2>
 <!-- * for in-person class* Now, you all have a repo named **planets** under your GitHub.com account. Let's invite a collaborator to work together on the project.  -->
 <p>The first approach to work collaboratively on a project using GitHub is to invite a collaborator to the project.</p>
 <section id="invite-collaborator">
-<h3>Invite collaborator<a class="headerlink" href="#invite-collaborator" title="Permalink to this headline">#</a></h3>
+<h3>Invite collaborator<a class="headerlink" href="#invite-collaborator" title="Permalink to this heading">#</a></h3>
 <!-- * for in-person class* Form a two people team with your neighbour in the class to complete the rest of the tasks. One of you will be the **Owner** and another one will be the **Collaborator**. -->
 <p>In a virtual class, our instructors will invite you as collaborators for a practice project owned by the instructor. The instructor will play the Owner role and all students will play the Collaborator role for the rest of the session.</p>
 <!-- Instructor Note: for virtual sessions, instructors should have collected students' GitHub user accounts. Add them to an example repo you own as collaborators before the session.  -->
@@ -1078,7 +1080,7 @@ water and food
 <p><img alt="collaborator" src="_images/Collaborator.png" /></p>
 </section>
 <section id="accept-invitation">
-<h3>Accept invitation<a class="headerlink" href="#accept-invitation" title="Permalink to this headline">#</a></h3>
+<h3>Accept invitation<a class="headerlink" href="#accept-invitation" title="Permalink to this heading">#</a></h3>
 <p>Collaborator, you need to first accept the invitation from the Owner. Look for an email sent to you with an <em>View Invitation</em> button to click on. Make sure you have logged in your GitHub account in the browser before clicking on the <em>View Invitation</em>  button.</p>
 <!-- Instructor Note:  It may be helpful to show the sample email and/or the notification page on the screen. Switching to the screen of another instructor or use screenshots here. -->
 <p><img alt="collabInviteEmail" src="_images/CollabInvitationEmail.png" /></p>
@@ -1091,10 +1093,10 @@ water and food
 <p>The Collaborator can now make a change in her clone of the Owner’s repository, exactly the same way as we’ve been doing before with their own repository.</p>
 <!-- Instructor Note: Bring up the Settings/Collaborator page to check and show collaborators who have accepted the invitation. --></section>
 <section id="branch">
-<h3>Branch<a class="headerlink" href="#branch" title="Permalink to this headline">#</a></h3>
+<h3>Branch<a class="headerlink" href="#branch" title="Permalink to this heading">#</a></h3>
 <p>If you are the owner or have collaborator permissions on a repository, you can create a branch off of the repository’s default branch so you can safely experiment with changes. The default branch of a repository is usually the Main branch.</p>
 <section id="create-a-branch">
-<h4>Create a branch<a class="headerlink" href="#create-a-branch" title="Permalink to this headline">#</a></h4>
+<h4>Create a branch<a class="headerlink" href="#create-a-branch" title="Permalink to this heading">#</a></h4>
 <!-- Instructor Note:  Ask each student to create a new branch named test-YourInitials and publish it to the collaborative repo. Show the branches as people push them to the collaborative repo. Ask Instructor 2 to create a branch with their initials too for demo of pull request between branches and creating conflict below. -->
 <p>Use the <em>Current Repository</em> tab on your GitHub Desktop to navigate to the repo you’d like to create a branch in.</p>
 <p>On the top of the GitHub Desktop, switch to the branch that you want to base the new branch on by clicking the Current Branch and choosing it from the list. For now, it would be just the Main branch. Then, click on New Branch.</p>
@@ -1110,7 +1112,7 @@ water and food
 </section>
 </section>
 <section id="pull-request-to-merge-changes-between-branches">
-<h3>Pull request to merge changes between branches<a class="headerlink" href="#pull-request-to-merge-changes-between-branches" title="Permalink to this headline">#</a></h3>
+<h3>Pull request to merge changes between branches<a class="headerlink" href="#pull-request-to-merge-changes-between-branches" title="Permalink to this heading">#</a></h3>
 <p>Under the branch you created, you can now make changes to the files or create new files without influence other branches.</p>
 <p>For example, with GitHub Desktop set to the branch you created, open <strong>plans.txt</strong> and add the following sentence to line 4.</p>
 <blockquote>
@@ -1151,14 +1153,14 @@ water and food
 <img alt="confirmmerge" src="_images/ConfirmMerge.png" /></p>
 <!-- Instructor Note: Instructor can show the Network visual after demonstrating the merge --></section>
 <section id="id1">
-<h3>Practice:<a class="headerlink" href="#id1" title="Permalink to this headline">#</a></h3>
+<h3>Practice:<a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h3>
 <p>The Collaborator makes a change to the <strong>plans.txt</strong> file in the newly created branch and push the change to the Owner’s remote repo. The Owner can fetch and pull that change to the Owner’s local repo.</p>
 <!-- Instructor Note: In a virtual class, instructor asks all students to make a change in their branch and push it to the collaborative repo. Instructor choose one branch to demonstrate fetching and pulling the change of that branch to the owner's local repo. It may be the easiest to choose Instructor 2's branch. -->
 <p><strong>TIP</strong>: When you are using GitHub Desktop to switch between branches, the local folder for the repo in your File Explorer or Finder will automatically be switched to that branch.</p>
 <!-- Instructor Note: Instructor can switch between the branches, delete a file in one branch and commit, and show how the File Finder can display differently when switching between the branches.  -->
 <!-- *for in-person session.* If time allows, exchange your roles as Owner and Collaborator and run the process again. Be careful not to put the repos with same names into the same folder.  --></section>
 <section id="conflicts">
-<h3>Conflicts<a class="headerlink" href="#conflicts" title="Permalink to this headline">#</a></h3>
+<h3>Conflicts<a class="headerlink" href="#conflicts" title="Permalink to this heading">#</a></h3>
 <p>During collaboration, if the Owner and the Collaborator attempted to change the same part of a file at the same time, there can be conflict. The party who pushes the change to the remote repo later will be asked to resolve the conflict.</p>
 <!-- Instructor Note: Two instructors need to work together on this part. No need to switch screen sharing though. Instructor#1 and Instructor#2 both go to the branch Intructor#2 created and edit the same line of the same file. Instructor#2 commit and push the change first. Instrctor#1 wait for the signal from Instructor#2 and then try to commit and push to see the conflict message. -->
 <p>Owner and Collaborator both browse to the same branch of their local copy of the Owner’s repo <strong>hiking</strong>.</p>
@@ -1203,10 +1205,10 @@ Phoebe suspects Maine is full of bears. But we should be fine if we are careful.
 </section>
 </section>
 <section id="fork">
-<h2>Fork<a class="headerlink" href="#fork" title="Permalink to this headline">#</a></h2>
+<h2>Fork<a class="headerlink" href="#fork" title="Permalink to this heading">#</a></h2>
 <p>A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project, and without being added as a collaborator of a public repository.</p>
 <section id="fork-a-public-repository">
-<h3>Fork a public repository<a class="headerlink" href="#fork-a-public-repository" title="Permalink to this headline">#</a></h3>
+<h3>Fork a public repository<a class="headerlink" href="#fork-a-public-repository" title="Permalink to this heading">#</a></h3>
 <p>Here is an example repository for you to Fork.
 Go to <a class="reference external" href="https://github.com/CarpentriesMIT/CO2EmissionPracticeDemo">https://github.com/CarpentriesMIT/CO2EmissionPracticeDemo</a></p>
 <p>Use the top right button to <em>Fork</em> the repository. Notice that the content stays the same but the location of the repo will be changed from the original owner’s account to yours once the fork is successful.</p>
@@ -1224,11 +1226,11 @@ Go to <a class="reference external" href="https://github.com/CarpentriesMIT/CO2E
 <p><a class="reference external" href="https://github.community/t5/Support-Protips/Contributing-to-Repositories-with-GitHub-Desktop/ba-p/17712">Read more on Fork</a></p>
 </section>
 <section id="send-pull-request-to-a-public-repository">
-<h3>Send pull request to a public repository<a class="headerlink" href="#send-pull-request-to-a-public-repository" title="Permalink to this headline">#</a></h3>
+<h3>Send pull request to a public repository<a class="headerlink" href="#send-pull-request-to-a-public-repository" title="Permalink to this heading">#</a></h3>
 <p>You can use GitHub Desktop, Branch –&gt; Create Pull Request to submit your pull request to the upstream remotes.</p>
 </section>
 <section id="id2">
-<h3>Practice<a class="headerlink" href="#id2" title="Permalink to this headline">#</a></h3>
+<h3>Practice<a class="headerlink" href="#id2" title="Permalink to this heading">#</a></h3>
 <p>Make a change to the “CO2EmissionAnalysis.ipynb” file or the <a class="reference external" href="http://README.md">README.md</a> file in the repository you forked earlier. And try to make a pull request to the upstream repo under the CarpentriesMIT account.</p>
 <p>Read more about <a class="reference external" href="https://docs.github.com/en/get-started/quickstart/fork-a-repo">Fork a Repo</a></p>
 </section>
