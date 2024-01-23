@@ -150,6 +150,7 @@
 # **Tip**: To toggle display hidden files, 
 # * On Mac, Command + Shift + Dot
 # * On Windows 10 / 8, from the File Explorer window (shortcut: windows key + E)  choose --> View --> Show/hide --> check Hidden Items.
+# * Unix Shell command for listing names of files and subfolders with hidden files/folders displayed: ls -a
 
 # ## Tracking Changes using GitHub Desktop
 # 
